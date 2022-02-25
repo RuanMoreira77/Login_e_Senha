@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Tela de Login e Senha</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: linear-gradient(45deg, black, crimson);
+        }
+        #login{
+            background-color: #FFFFFF;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            padding: 80px;
+            border-radius: 10px;
+            color: white;
+            box-shadow: 5px 8px 8px #000;
+            align-items: center;
+        }
+        input{
+            padding: 15px;
+            border-color: crimson;
+            outline: none;
+            font-size: 15px;
+            border-radius: 5px;
+        }
+        #button{
+            background-color: crimson;
+            border: none;
+            padding: 15px;
+            width: 100%;
+            border-radius: 10px;
+            color: #fff;
+            font-size: 15px;
+        }
+        #button:hover{
+            background-color: rgb(235, 33, 73);
+            cursor: pointer;
+        }
+        h1{
+            text-align: center;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div id="login">
+        <h1>Login</h1>
+        <input type="text" placeholder="Email">
+        <br><br>
+        <input id="password" type="password" placeholder="Senha">
+        <br><br>
+        <input type="submit" value="Entrar" id="button">
+        <br><br>
+    </div>
+</body>
+</html>
